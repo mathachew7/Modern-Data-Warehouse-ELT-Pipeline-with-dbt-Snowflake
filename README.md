@@ -20,7 +20,7 @@ Traditional ETL processes often involve complex, hard-to-maintain code outside t
 ```mermaid
 graph TD
     subgraph Ingestion
-        A[Data Sources] --> B[Fivetran / Airbyte\n(or Custom Ingestion)];
+        A[Data Sources] --> B[Fivetran / Airbyte\nCustom Ingestion];
     end
 
     B --> C[Snowflake (Raw Layer)];
@@ -45,6 +45,7 @@ graph TD
     style F fill:#dfb,stroke:#333,stroke-width:2px
     style G fill:#bfb,stroke:#333,stroke-width:2px
     style H fill:#fdb,stroke:#333,stroke-width:2px
+
 
 ```
 ## Technologies Used
