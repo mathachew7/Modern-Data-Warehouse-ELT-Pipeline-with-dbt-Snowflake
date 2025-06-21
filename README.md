@@ -20,7 +20,7 @@ Traditional ETL processes often involve complex, hard-to-maintain code outside t
 ```mermaid
 graph TD
     subgraph Ingestion
-        A[Data Sources] --> B[Fivetran / Airbyte<br>(or Custom Ingestion)];
+        A[Data Sources] --> B[Fivetran / Airbyte\n(or Custom Ingestion)];
     end
 
     B --> C[Snowflake (Raw Layer)];
