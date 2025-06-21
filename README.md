@@ -17,7 +17,7 @@ Traditional ETL processes often involve complex, hard-to-maintain code outside t
 
 ## High-Level Architecture
 
-```mermaid
+```
 graph TD
     subgraph Ingestion
         A[Data Sources] --> B[Fivetran / Airbyte\nCustom Ingestion];
